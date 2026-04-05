@@ -95,7 +95,7 @@
 }
 
 .content h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: rgb(0, 255, 255);
     margin-bottom: 0.5rem;
     font-style: italic;
@@ -105,7 +105,7 @@
 .content p {
     font-size: 1.3rem;
     color: white;
-    max-width: 27rem;
+    max-width: 22rem;
     line-height: 1.5rem;
     font-style: italic;
 
