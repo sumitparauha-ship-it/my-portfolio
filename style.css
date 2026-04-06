@@ -342,7 +342,7 @@ section p span {
     }
 
     .icons {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         gap: 1.2rem;
         margin: 1rem 0;
