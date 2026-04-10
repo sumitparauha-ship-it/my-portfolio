@@ -254,8 +254,13 @@ section h2 {
     padding-right: 1.3rem;
     padding-bottom:1rem;
     padding-top: 1rem;
-    color:rgb(255,87, 230);
-    text-decoration: rgb(188, 255, 196)underline);
+    color:rgb(255, 255, 23);
+    text-decoration:underline
+}
+section h2:hover {
+    transform: translateX(20px);
+
+    color: #85ff22;
 }
 section p{
     font-size: 1rem;
@@ -307,7 +312,7 @@ section p span {
     .left-container {
         width: 100%;
         height: auto;
-        padding: 1.5rem;
+        padding: 1.3rem;
         text-align: center;
     }
 
@@ -376,12 +381,40 @@ section p span {
         width: 85%;
         margin: 0.5rem 0;
     }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-right: 1rem;
+    }
 
     section p {
         padding: 0 10px;
         max-width: 100%;
     }
 }
-
-
-
+.introd {
+    background-color: rgb(15 ,32, 39);
+    margin: 2rem;
+    border:2px solid #5fff2e;
+}
+.skills {
+    background-color: rgb(34, 34, 34);
+    margin: 2rem;
+    border: 2px solid rgb(255, 196, 4);
+}
+.contact {
+    background-color: rgb(116, 74, 0);
+    margin: 2rem;
+    border: 2px solid rgb(138, 255, 35);
+}
+.project {
+    background-color: rgb(15, 32, 39);
+    margin: 2rem;
+    border: 2px solid rgb(163, 255, 24);
+}
+.address {
+    background-color: #242222;
+    margin: 2rem;
+    border: 2px solid rgb(165, 255, 30);
+}
