@@ -303,6 +303,8 @@ section p span {
         position: static;
         gap: 1rem;
         padding: 1rem 0;
+        padding_left:  1rem;
+        margin: 1rem;
     }
 
     .portfolio-container {
